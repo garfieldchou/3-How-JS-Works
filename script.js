@@ -20,6 +20,12 @@ retirement(1956);
 console.log(age);
 var age = 23;
 
+function foo() {
+    var age = 65;
+    console.log(age);
+}
+foo();
+console.log(age);
 
 ///////////////////////////////////////
 // Lecture: Scoping
