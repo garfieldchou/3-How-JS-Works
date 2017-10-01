@@ -67,7 +67,7 @@ function third() {
 ///////////////////////////////////////
 // Lecture: The this keyword
 
-
+console.log(this);
 
 
 
