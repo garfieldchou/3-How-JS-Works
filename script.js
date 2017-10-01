@@ -67,11 +67,14 @@ function third() {
 ///////////////////////////////////////
 // Lecture: The this keyword
 
-console.log(this);
+// console.log(this);
 
+calculateAge(1986);
 
-
-
+function calculateAge(year) {
+    console.log(2016 - year);
+    console.log(this);
+}
 
 
 
