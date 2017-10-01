@@ -84,6 +84,11 @@ var john = {
     calculateAge: function() {
         console.log(this);
         console.log(2016 - this.yearOfBirth);
+        
+        function innerFunction() {
+            console.log(this); 
+        }
+        innerFunction();
     }
 }
 
